@@ -1,0 +1,1 @@
+python main.py --cuda --emsize 400 --nhid 400 --nlayers 3
