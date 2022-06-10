@@ -1,6 +1,6 @@
 ### Commands for running
 
-The following are the command for the best configuration, the result can be visualized by Tensorboard.
+The following are the command for the best configuration, the result can be visualized by Tensorboard. The running time is about 1h.
 
 ```bash
 python example.py \
