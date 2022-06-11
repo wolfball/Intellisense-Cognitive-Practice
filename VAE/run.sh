@@ -1,0 +1,1 @@
+python example.py --epoch 200 --lat_dim 100 --noised --expname best_exp --en_layers 3 --hid_dim 2000  --use_cuda $1
