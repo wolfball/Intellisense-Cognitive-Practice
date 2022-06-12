@@ -1,0 +1,16 @@
+fire==0.4.0
+h5py==3.6.0
+librosa==0.9.1
+loguru==0.6.0
+numpy==1.21.6
+pandas==1.4.2
+pypeln==0.4.9
+PyYAML==6.0
+scikit_learn==1.1.1
+scikit_multilearn==0.2.0
+scipy==1.8.0
+sed_eval==0.2.1
+SoundFile==0.10.3.post1
+tabulate==0.8.9
+torch==1.11.0
+tqdm==4.64.0

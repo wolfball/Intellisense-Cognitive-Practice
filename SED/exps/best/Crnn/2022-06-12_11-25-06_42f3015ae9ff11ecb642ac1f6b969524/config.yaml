@@ -1,0 +1,27 @@
+batch_size: 64
+data:
+  class_indice_file: data/metadata/class_label_indices.txt
+  feature: data/dev/feature.csv
+  label: data/dev/label.csv
+  stratified: true
+dataloader_args:
+  batch_size: 32
+  num_workers: 1
+early_stop: 7
+epochs: 100
+loss: BceLoss
+model:
+  args: {}
+  type: Crnn
+num_workers: 2
+optimizer:
+  args:
+    lr: 0.001
+  type: AdamW
+outputpath: exps/best
+postprocess: triple
+scheduler_args:
+  factor: 0.1
+  patience: 3
+transforms:
+- timemask
